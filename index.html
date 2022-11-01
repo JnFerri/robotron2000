@@ -25,27 +25,27 @@
 
         <section class="box estatisticas">
             <div class="estatistica">
-                <p class="estatistica-titulo">Força</p>
+                <p class="estatistica-titulo" >Força</p>
                 <div class="estatistica-valor">
-                    <p class="estatistica-numero">768</p>
+                    <p class="estatistica-numero" data-estatistica="forca" >0</p>
                 </div>
             </div>
             <div class="estatistica">
                 <p class="estatistica-titulo">Poder</p>
                 <div class="estatistica-valor">
-                    <p class="estatistica-numero">630</p>
+                    <p class="estatistica-numero" data-estatistica="poder" >0</p>
                 </div>
             </div>
             <div class="estatistica">
                 <p class="estatistica-titulo">Energia</p>
                 <div class="estatistica-valor">
-                    <p class="estatistica-numero">289</p>
+                    <p class="estatistica-numero"data-estatistica="energia" >0</p>
                 </div>
             </div>
             <div class="estatistica">
                 <p class="estatistica-titulo">Velocidade</p>
                 <div class="estatistica-valor">
-                    <p class="estatistica-numero">597</p>
+                    <p class="estatistica-numero"data-estatistica="velocidade">0</p>
                 </div>
             </div>
         </section>
@@ -55,46 +55,46 @@
                 <div class="box montador-conteudo">
                     <div class="peca">
                         <label for="" class="peca-titulo">Braços</label>
-                        <div class="controle">
-                            <buttom class="controle-ajuste" id="diminuir">-</buttom>
+                        <div class="controle" data-peca="bracos">
+                            <buttom class="controle-ajuste" data-controle='-' id="diminuir">-</buttom>
                             <input type="text" class="controle-contador" value="00">
-                            <buttom class="controle-ajuste" id="somar">+</buttom>
+                            <buttom class="controle-ajuste"  data-controle="+" id="somar">+</buttom>
                         </div>
                     </div>
                     <hr class="linha">
                     <div class="peca">
                         <label for="" class="peca-titulo">Blindagem</label>
-                        <div class="controle">
-                            <buttom class="controle-ajuste" id="diminuir">-</buttom>
+                        <div class="controle" data-peca="blindagem">
+                            <buttom class="controle-ajuste" data-controle='-' id="diminuir">-</buttom>
                             <input type="text" class="controle-contador" value="00">
-                            <buttom class="controle-ajuste" id="somar">+</buttom>
+                            <buttom class="controle-ajuste" data-controle="+" id="somar">+</buttom>
                         </div>
                     </div>
                     <hr class="linha">
                     <div class="peca">
                         <label for="" class="peca-titulo">Núcleos</label>
-                        <div class="controle">
-                            <buttom class="controle-ajuste" id="diminuir">-</buttom>
+                        <div class="controle" data-peca="nucleos">
+                            <buttom class="controle-ajuste" data-controle='-' id="diminuir">-</buttom>
                             <input type="text" class="controle-contador" value="00">
-                            <buttom class="controle-ajuste" id="somar">+</buttom>
+                            <buttom class="controle-ajuste" data-controle="+" id="somar">+</buttom>
                         </div>
                     </div>
                     <hr class="linha">
                     <div class="peca">
                         <label for="" class="peca-titulo">Pernas</label>
-                        <div class="controle">
-                            <buttom class="controle-ajuste" id="diminuir">-</buttom>
+                        <div class="controle" data-peca="pernas">
+                            <buttom class="controle-ajuste" data-controle='-' id="diminuir">-</buttom>
                             <input type="text" class="controle-contador" value="00">
-                            <buttom class="controle-ajuste" id="somar">+</buttom>
+                            <buttom class="controle-ajuste" data-controle="+" id="somar">+</buttom>
                         </div>
                     </div>
                     <hr class="linha">
                     <div class="peca">
                         <label for="" class="peca-titulo">Foguetes</label>
-                        <div class="controle">
-                            <buttom class="controle-ajuste" id="diminuir">-</buttom>
+                        <div class="controle" data-peca="foguetes">
+                            <buttom class="controle-ajuste" data-controle='-' id="diminuir">-</buttom>
                             <input type="text" class="controle-contador" value="00">
-                            <buttom class="controle-ajuste" id="somar">+</buttom>
+                            <buttom class="controle-ajuste" data-controle="+" id="somar">+</buttom>
                         </div>
                     </div>
                 </div>
@@ -105,6 +105,6 @@
         
     </main>
     
-    <script src="main.js"></script>
+    <script type="module" src="main.js"></script>
 </body>
 </html>
